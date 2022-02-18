@@ -7,7 +7,7 @@ pragma solidity ^0.8.7;
 import "https://github.com/The-Stripes-NFT/the-stripes-nft-contract/blob/main/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "https://github.com/The-Stripes-NFT/the-stripes-nft-contract/blob/main/contracts/access/Ownable.sol";
 
-contract Kitty dinger is ERC721Enumerable, Ownable {
+contract Kittydinger is ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     string public baseURI;
